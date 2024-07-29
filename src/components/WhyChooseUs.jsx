@@ -26,10 +26,10 @@ function WhyChooseUs() {
             pagination={true}
             centeredSlides={true}
             className="mb-8"
-            autoplay={{
-              delay: 2000,
-              disableOnInteraction: false,
-            }}
+            // autoplay={{
+            //   delay: 2000,
+            //   disableOnInteraction: false,
+            // }}
             modules={[Autoplay, Pagination]}
             breakpoints={{
               500: {
@@ -103,7 +103,7 @@ function WhyChooseUs() {
           <img
             src={whyChooseUs}
             alt="why-choose-us"
-            className="rounded-3xl object-cover h-[300px] md:h-[340px] mx-auto lg:h-[527px]"
+            className="rounded-3xl object-cover h-[300px] md:h-[340px] mx-auto lg:h-[527px] w-full"
           />
         </div>
       </section>
