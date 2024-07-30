@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
 import WhyChooseUs from "./components/WhyChooseUs";
 import ContactUs from "./components/ContactUs";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AboutUs />
       <WhyChooseUs />
       <ContactUs />
+      <Faq />
     </>
   );
 }
