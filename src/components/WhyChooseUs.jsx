@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-import smallStar from "../assets/images/png/small-star-icon.png";
-import whyChooseUs from "../assets/images/png/why-choose-us.png";
+import smallStar from "../assets/images/png/small-star-icon.webp";
+import whyChooseUs from "../assets/images/png/why-choose-us.webp";
 
 function WhyChooseUs() {
   return (

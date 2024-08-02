@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import logo from "../assets/images/svg/logo.svg";
 import open from "../assets/images/svg/open.svg";
 import close from "../assets/images/svg/close.svg";
-import smallStar from "../assets/images/png/small-star-icon.png";
-import smallHero from "../assets/images/png/small-hero.png";
-import heroBg from "../assets/images/png/hero.png";
+import smallStar from "../assets/images/png/small-star-icon.webp";
+import smallHero from "../assets/images/png/small-hero.webp";
+import heroBg from "../assets/images/png/hero.webp";
 import CommonBtn from "./CommonBtn";
 function Header() {
   const [show, setShow] = useState(false);

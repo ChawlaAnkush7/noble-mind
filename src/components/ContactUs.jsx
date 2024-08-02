@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import contactUs from "../assets/images/png/contact-us.png";
+import contactUs from "../assets/images/png/contact-us.webp";
 import CommonBtn from "./CommonBtn";
 
 function ContactUs() {

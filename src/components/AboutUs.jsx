@@ -1,6 +1,6 @@
 import React from "react";
-import aboutUs from "../assets/images/png/about-us.png";
-import smallStar from "../assets/images/png/small-star-icon.png";
+import aboutUs from "../assets/images/png/about-us.webp";
+import smallStar from "../assets/images/png/small-star-icon.webp";
 import CommonBtn from "./CommonBtn";
 function AboutUs() {
   return (
