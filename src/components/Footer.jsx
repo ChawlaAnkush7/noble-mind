@@ -17,16 +17,16 @@ function Footer() {
                   Follow Us
                 </span>
                 <div className="flex gap-4 items-center">
-                  <a href="/">
+                  <a href="https://www.facebook.com/" target="blank">
                     <Facebook />
                   </a>
-                  <a href="/">
+                  <a href="https://www.instagram.com/" target="blank">
                     <Instagram />
                   </a>
-                  <a href="/">
+                  <a href="https://x.com/?lang=en" target="blank">
                     <Twitter />
                   </a>
-                  <a href="/">
+                  <a href="https://www.linkedin.com/feed/" target="blank">
                     <Linkdin />
                   </a>
                 </div>
