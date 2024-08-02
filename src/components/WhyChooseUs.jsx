@@ -23,13 +23,15 @@ function WhyChooseUs() {
             slidesPerView={1}
             spaceBetween={24}
             loop={true}
-            pagination={true}
+            pagination={{
+              clickable: true,
+            }}
             centeredSlides={true}
             className="mb-8"
-            // autoplay={{
-            //   delay: 2000,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
             modules={[Autoplay, Pagination]}
             breakpoints={{
               500: {
