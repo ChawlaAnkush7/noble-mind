@@ -38,7 +38,9 @@ function AboutUs() {
                 the vision of Noble Mind hints at a brighter, more efficient
                 nation.
               </p>
-              <CommonBtn name="Read More" />
+              <button aria-label="read-more-btn">
+                <CommonBtn name="Read More" />
+              </button>
             </div>
           </div>
         </div>

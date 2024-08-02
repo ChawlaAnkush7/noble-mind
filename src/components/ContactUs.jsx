@@ -98,7 +98,11 @@ function ContactUs() {
                     className="resize-none h-[135px] border border-[#1312002d] rounded-lg px-2 outline-none"
                   ></textarea>
                 </div>
-                <button className="mt-2" onClick={saveData}>
+                <button
+                  className="mt-2"
+                  aria-label="submit-btn"
+                  onClick={saveData}
+                >
                   <CommonBtn name="Submit" />
                 </button>
               </form>

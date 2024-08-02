@@ -20,7 +20,7 @@ function Newsletter() {
                 placeholder="Enter Your Email "
                 className="border-0 outline-0 bg-transparent placeholder-white placeholder:font-outfit ps-3 text-white"
               />
-              <button>
+              <button aria-label="subscribe-btn">
                 <CommonBtn
                   name="Subscribe"
                   btnFs="border-white bg-transparent border hidden sm:block"
