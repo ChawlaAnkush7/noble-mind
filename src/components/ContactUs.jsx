@@ -24,7 +24,7 @@ function ContactUs() {
   };
   return (
     <>
-      <section>
+      <section id="contactus" className="my-[150px]">
         <div className="2xl:max-w-[1320px] xl:max-w-[1140px] container  mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 items-center">
             <div className="form-section md:col-span-5">

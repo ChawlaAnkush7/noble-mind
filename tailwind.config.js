@@ -38,7 +38,8 @@ export default {
         '4': '4px'
       },
       backgroundImage: {
-        'hero-bg': "url('./assets/images/png/hero.png')"
+        'hero-bg': "url('./assets/images/png/hero.png')",
+        'newsletter': "url('./assets/images/png/newsletter.png')"
       },
       gridAutoColumns: {
         'heroCol': 'repeat(1, minmax(0, 1fr))'

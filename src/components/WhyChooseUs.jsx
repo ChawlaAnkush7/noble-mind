@@ -9,7 +9,7 @@ import whyChooseUs from "../assets/images/png/why-choose-us.png";
 function WhyChooseUs() {
   return (
     <>
-      <section className="pb-[200px]">
+      <section>
         <div className="container xl:max-w-[1140px] 2xl:max-w-[1320px] px-4 mx-auto">
           <span className="flex items-center text-primary-black font-exo2 leading-lh150 justify-center">
             <img src={smallStar} alt="star-icon" className="h-[26px]" />

@@ -31,47 +31,47 @@ function Header() {
               <li>
                 <a
                   href="/"
-                  className="leading-lh150 block lg:text-sm text-[25px] "
+                  className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
                   Home
                 </a>
               </li>
               <li>
                 <a
-                  href="#About-Us"
-                  className="leading-lh150 block lg:text-sm text-[25px] "
+                  href="#aboutus"
+                  className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
                   About Us
                 </a>
               </li>
               <li>
                 <a
-                  href="#Services"
-                  className="leading-lh150 block lg:text-sm text-[25px] "
+                  href="#services"
+                  className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
                   Services
                 </a>
               </li>
               <li>
                 <a
-                  href="#Why-Choose-Us"
-                  className="leading-lh150 block lg:text-sm text-[25px] "
+                  href="#whychooseus"
+                  className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
                   Why Choose Us
                 </a>
               </li>
               <li>
                 <a
-                  href="#Blogs"
-                  className="leading-lh150 block lg:text-sm text-[25px] "
+                  href="#blogs"
+                  className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
                   Blogs
                 </a>
               </li>
               <li>
                 <a
-                  href="#FAQ"
-                  className="leading-lh150 block lg:text-sm text-[25px] "
+                  href="#faq"
+                  className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
                   FAQ
                 </a>

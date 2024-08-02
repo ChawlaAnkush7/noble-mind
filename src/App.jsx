@@ -4,6 +4,8 @@ import AboutUs from "./components/AboutUs";
 import WhyChooseUs from "./components/WhyChooseUs";
 import ContactUs from "./components/ContactUs";
 import Faq from "./components/Faq";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <WhyChooseUs />
       <ContactUs />
       <Faq />
+      <Newsletter />
+      <Footer />
     </>
   );
 }
