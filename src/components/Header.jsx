@@ -4,10 +4,13 @@ import open from "../assets/images/svg/open.svg";
 import close from "../assets/images/svg/close.svg";
 import smallStar from "../assets/images/png/small-star-icon.webp";
 import smallHero from "../assets/images/png/small-hero.webp";
-import heroBg from "../assets/images/png/hero.webp";
 import CommonBtn from "./CommonBtn";
 function Header() {
   const [show, setShow] = useState(false);
+  const handleMenu = () => {
+    document.body.classList.toggle("overflow-hidden");
+    setShow(!show);
+  };
   return (
     <>
       <header className="xl:min-h-[810px] min-h-[650px]  flex flex-col lg:bg-hero-bg   bg-contain bg-center bg-no-repeat relative ">
@@ -83,7 +86,7 @@ function Header() {
             <button
               className="lg:hidden  relative z-10"
               aria-label="menu-btn"
-              onClick={() => setShow(!show)}
+              onClick={handleMenu}
             >
               <img
                 src={`${show ? close : open}`}

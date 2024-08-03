@@ -9,7 +9,7 @@ import whyChooseUs from "../assets/images/png/why-choose-us.webp";
 function WhyChooseUs() {
   return (
     <>
-      <section>
+      <section id="whychooseus">
         <div className="container xl:max-w-[1140px] 2xl:max-w-[1320px] px-4 mx-auto">
           <span className="flex items-center text-primary-black font-exo2 leading-lh150 justify-center">
             <img src={smallStar} alt="star-icon" className="h-[26px]" />
@@ -46,7 +46,7 @@ function WhyChooseUs() {
             }}
           >
             <SwiperSlide>
-              <div className="card-one h-full p-[18px] border border-[#EEDDFB] rounded-xl">
+              <div className="slide-card card-one h-full p-[18px] border border-[#EEDDFB] rounded-xl">
                 <span className="flex items-center justify-center border-[6px] w-[36px] h-[36px] rounded-[50%] ">
                   1
                 </span>
@@ -60,7 +60,7 @@ function WhyChooseUs() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card-two h-full p-[18px] border border-[#EEDDFB] rounded-xl">
+              <div className=" slide-card card-two h-full p-[18px] border border-[#EEDDFB] rounded-xl">
                 <span className="flex items-center justify-center border-[6px] w-[36px] h-[36px] rounded-[50%] ">
                   2
                 </span>
@@ -74,7 +74,7 @@ function WhyChooseUs() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card-three h-full p-[18px] border border-[#EEDDFB] rounded-xl">
+              <div className="slide-card card-three h-full p-[18px] border border-[#EEDDFB] rounded-xl">
                 <span className="flex items-center justify-center border-[6px] w-[36px] h-[36px] rounded-[50%] ">
                   3
                 </span>
@@ -88,7 +88,7 @@ function WhyChooseUs() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card-one h-full p-[18px] border border-[#EEDDFB] rounded-xl">
+              <div className="slide-card card-one h-full p-[18px] border border-[#EEDDFB] rounded-xl">
                 <span className="flex items-center justify-center border-[6px] w-[36px] h-[36px] rounded-[50%] ">
                   4
                 </span>

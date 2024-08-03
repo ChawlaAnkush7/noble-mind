@@ -18,6 +18,7 @@ export default {
         'outfit': ["Outfit", 'sans-serif']
       },
       fontSize: {
+        xsm: '14px',
         sm: '16px',
         md: '20px',
         lg: '48px',
@@ -40,6 +41,9 @@ export default {
       backgroundImage: {
         'hero-bg': "url('./assets/images/png/hero.webp')",
         'newsletter': "url('./assets/images/png/newsletter.webp')"
+      },
+      boxShadow: {
+        'accordion-shadow': '0 4px 32px 0 rgba(0,0,0,0.08)'
       },
       gridAutoColumns: {
         'heroCol': 'repeat(1, minmax(0, 1fr))'

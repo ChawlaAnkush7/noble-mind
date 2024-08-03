@@ -67,7 +67,7 @@ function Faq() {
 
   return (
     <>
-      <section>
+      <section id="faq">
         <div className="container mx-auto px-4 xl:max-w-[1140px] 2xl:max-w-[1320px] ">
           <h2 className="sub-heading text-center">
             Frequently <span className="font-semibold">Asked Questions</span>
@@ -76,11 +76,11 @@ function Faq() {
             Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu
             volutpat mi leo. Nibh nisl consequat metus.
           </p>
-          <div className="max-w-[62%] mx-auto flex flex-col gap-[18px] items-start mt-14">
+          <div className="lg:max-w-[62%] mx-auto flex flex-col gap-[18px] items-start mt-14">
             {data.map((n, index) => {
               return (
                 <Accordion
-                  className={` border border-black rounded-xl ${
+                  className={` border border-[#eddcfa] rounded-xl shadow-accordion-shadow ${
                     open === n.id ? "border-b-[6px] border-[#A854E9]" : ""
                   }`}
                   key={index}

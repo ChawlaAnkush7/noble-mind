@@ -4,7 +4,7 @@ import CommonBtn from "./CommonBtn";
 function Newsletter() {
   return (
     <>
-      <section className="mt-[150px]">
+      <section className="mt-10 md:mt-[80px] lg:mt-[100px] xl:mt-[150px]">
         <div className="container mx-auto px-4 xl:max-w-[1140px] 2xl:max-w-[1320px]">
           <div className="bg-newsletter bg-cover bg-no-repeat bg-center mb-[-84px] relative z-[1] rounded-[20px] p-8 sm:p-[60px] flex flex-col items-center justify-center">
             <h2 className="sub-heading text-white">

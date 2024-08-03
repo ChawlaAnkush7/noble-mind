@@ -29,10 +29,10 @@ html, body {
     min-height: 208px;
 }
 
-.swiper-slide-active {
+.swiper-slide-active .slide-card {
     border: 1px solid #A854E9;
     border-bottom: 6px solid #A854E9;
-    border-radius: 12px
+    border-radius: 18px;
 }
 
 .swiper-pagination-bullet {
@@ -44,8 +44,4 @@ html, body {
     width: 28px;
     height: 8px;
     border-radius: 22px;
-}
-
-footer ul li a {
-    color: white;
 }

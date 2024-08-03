@@ -5,7 +5,10 @@ import CommonBtn from "./CommonBtn";
 function AboutUs() {
   return (
     <>
-      <section className="my-10 md:my-20 lg:my-[100px] xl:my-[150px]">
+      <section
+        id="aboutus"
+        className="my-10 md:my-20 lg:my-[100px] xl:my-[150px]"
+      >
         <div className="2xl:max-w-[1320px] xl:max-w-[1140px] container  mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-between gap-6 lg:gap-[75px]">
             <div className="left-col order-1">
