@@ -16,7 +16,7 @@ function Header() {
       <header className="xl:min-h-[810px] min-h-[650px]  flex flex-col lg:bg-hero-bg   bg-contain bg-center bg-no-repeat relative ">
         <nav className="w-full">
           <div className="xl:max-w-[1140px] 2xl:max-w-[1320px] container px-4 mx-auto flex py-[19px] items-center justify-between">
-            <a href="/">
+            <a aria-label="link" href="/">
               <img
                 src={logo}
                 alt="Noble-Minds"
@@ -33,6 +33,7 @@ function Header() {
             >
               <li>
                 <a
+                  aria-label="link"
                   href="/"
                   className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
@@ -41,6 +42,7 @@ function Header() {
               </li>
               <li>
                 <a
+                  aria-label="link"
                   href="#aboutus"
                   className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
@@ -49,6 +51,7 @@ function Header() {
               </li>
               <li>
                 <a
+                  aria-label="link"
                   href="#services"
                   className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
@@ -57,6 +60,7 @@ function Header() {
               </li>
               <li>
                 <a
+                  aria-label="link"
                   href="#whychooseus"
                   className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
@@ -65,6 +69,7 @@ function Header() {
               </li>
               <li>
                 <a
+                  aria-label="link"
                   href="#blogs"
                   className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >
@@ -73,6 +78,7 @@ function Header() {
               </li>
               <li>
                 <a
+                  aria-label="link"
                   href="#faq"
                   className="leading-lh150 block lg:text-sm text-[25px] relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-0 after:h-[2px] after:left-0 after:bg-black "
                 >

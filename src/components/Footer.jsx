@@ -9,7 +9,7 @@ function Footer() {
         <div className="container mx-auto px-4 xl:max-w-[1140px] 2xl:max-w-[1320px]">
           <div className="grid lg:grid-cols-12 sm:grid-cols-2 grid-cols-1 gap-6 justify-between pb-14">
             <div className="left-col lg:col-span-8">
-              <a href="/">
+              <a aria-label="link" href="/">
                 <img src={footerLogo} alt="Noble-Mind" className="h-[32px]" />
               </a>
               <div className="flex flex-col gap-2 mt-7">
@@ -17,16 +17,32 @@ function Footer() {
                   Follow Us
                 </span>
                 <div className="flex gap-4 items-center">
-                  <a href="https://www.facebook.com/" target="blank">
+                  <a
+                    aria-label="link"
+                    href="https://www.facebook.com/"
+                    target="blank"
+                  >
                     <Facebook />
                   </a>
-                  <a href="https://www.instagram.com/" target="blank">
+                  <a
+                    aria-label="link"
+                    href="https://www.instagram.com/"
+                    target="blank"
+                  >
                     <Instagram />
                   </a>
-                  <a href="https://x.com/?lang=en" target="blank">
+                  <a
+                    aria-label="link"
+                    href="https://x.com/?lang=en"
+                    target="blank"
+                  >
                     <Twitter />
                   </a>
-                  <a href="https://www.linkedin.com/feed/" target="blank">
+                  <a
+                    aria-label="link"
+                    href="https://www.linkedin.com/feed/"
+                    target="blank"
+                  >
                     <Linkdin />
                   </a>
                 </div>
@@ -41,6 +57,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
+                        aria-label="link"
                         href="/"
                         className="para-common-prop text-white relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-[-2px] after:h-[2px] after:left-0 after:bg-white"
                       >
@@ -49,6 +66,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
+                        aria-label="link"
                         href="#about"
                         className="para-common-prop text-white relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-[-2px] after:h-[2px] after:left-0 after:bg-white"
                       >
@@ -57,6 +75,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
+                        aria-label="link"
                         href="#services"
                         className="para-common-prop text-white relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-[-2px] after:h-[2px] after:left-0 after:bg-white"
                       >
@@ -65,6 +84,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
+                        aria-label="link"
                         href="#whychooseus"
                         className="para-common-prop text-white relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-[-2px] after:h-[2px] after:left-0 after:bg-white"
                       >
@@ -80,6 +100,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
+                        aria-label="link"
                         href="/"
                         className="para-common-prop text-white relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-[-2px] after:h-[2px] after:left-0 after:bg-white"
                       >
@@ -88,6 +109,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
+                        aria-label="link"
                         href="#about"
                         className="para-common-prop text-white relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-[-2px] after:h-[2px] after:left-0 after:bg-white"
                       >
@@ -96,6 +118,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
+                        aria-label="link"
                         href="#contactus"
                         className="para-common-prop text-white relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-[-2px] after:h-[2px] after:left-0 after:bg-white"
                       >
@@ -104,6 +127,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
+                        aria-label="link"
                         href="tel:+629) 555-0129"
                         className="para-common-prop text-white relative after:absolute after:w-0  hover:after:w-full after:transition-all after:bottom-[-2px] after:h-[2px] after:left-0 after:bg-white"
                       >
