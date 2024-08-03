@@ -50,9 +50,9 @@ function WhyChooseUs() {
                 <span className="flex items-center justify-center border-[6px] w-[36px] h-[36px] rounded-[50%] ">
                   1
                 </span>
-                <h4 className="font-outfit text-md text-primary-black mt-[11px] mb-1">
+                <h3 className="font-outfit text-md text-primary-black mt-[11px] mb-1">
                   Customer-Centric
-                </h4>
+                </h3>
                 <p className="para-common-prop sm:max-w-[297px]">
                   Prioritize and anticipate client needs, ensuring our
                   technology solutions consistently deliver unparalleled value.
@@ -64,9 +64,9 @@ function WhyChooseUs() {
                 <span className="flex items-center justify-center border-[6px] w-[36px] h-[36px] rounded-[50%] ">
                   2
                 </span>
-                <h4 className="font-outfit text-md text-primary-black mt-[11px] mb-1">
+                <h3 className="font-outfit text-md text-primary-black mt-[11px] mb-1">
                   Workplace Harmony
-                </h4>
+                </h3>
                 <p className="para-common-prop sm:max-w-[303px]">
                   Create a nurturing and peaceful environment for our staff,
                   fostering growth, well-being, and unity.
@@ -78,9 +78,9 @@ function WhyChooseUs() {
                 <span className="flex items-center justify-center border-[6px] w-[36px] h-[36px] rounded-[50%] ">
                   3
                 </span>
-                <h4 className="font-outfit text-md text-primary-black mt-[11px] mb-1">
+                <h3 className="font-outfit text-md text-primary-black mt-[11px] mb-1">
                   Ethical Leadership
-                </h4>
+                </h3>
                 <p className="para-common-prop sm:max-w-[297px]">
                   Maintain the highest standards in all practices, ensuring our
                   solutions are responsible, safe, and transparent.
@@ -92,9 +92,9 @@ function WhyChooseUs() {
                 <span className="flex items-center justify-center border-[6px] w-[36px] h-[36px] rounded-[50%] ">
                   4
                 </span>
-                <h4 className="font-outfit text-md text-primary-black mt-[11px] mb-1">
+                <h3 className="font-outfit text-md text-primary-black mt-[11px] mb-1">
                   Workplace Harmony
-                </h4>
+                </h3>
                 <p className="para-common-prop sm:max-w-[297px]">
                   Prioritize and anticipate client needs, ensuring our
                   technology solutions consistently deliver unparalleled value.
